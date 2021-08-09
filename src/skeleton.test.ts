@@ -1,5 +1,5 @@
-import sum from "./skeleton";
+import twoNumberSum from "./skeleton";
 
-test("sum adds two numbers", () => {
-  expect(sum(4, 3)).toBe(7);
+test("twoNumberSum returns pair of numbers that sum to target sum ", () => {
+  expect(twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10)).toStrictEqual([-1, 11]);
 });
